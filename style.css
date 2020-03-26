@@ -1,0 +1,246 @@
+*{
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background: #010103;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+  flex-wrap: wrap;
+}
+a, a:hover{
+  text-decoration: none;
+}
+header {
+  top: 76px;
+  position: absolute;
+  width: 100%;
+}
+.top-menu a{
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff;
+}
+.top-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-menu_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #292E50;
+  border-radius: 3px;
+  text-align: center;
+  margin: 0 10px 0 10px;
+  width: 197px;
+  height: 38px;
+}
+#game{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.content{
+  display: flex;
+  margin-top: 80px;
+}
+.content-block{
+  position: relative;
+  margin-top: 110px;
+  width: 730px;
+  height: 274px;
+  background: linear-gradient(244.93deg, rgba(41, 46, 80, 0.77) 44.75%, rgba(41, 46, 80, 0) 102.66%);
+  box-shadow: inset 0 4px 12px #000000;
+  margin-right: 129px;
+}
+.content-block:before{
+  content: '';
+  position: absolute;
+  background: url("https://i.ibb.co/SfHkDfh/image-2.png");
+  bottom: 0;
+  right: -110px;
+  margin: auto;
+  width: 503px;
+  height: 360px;
+}
+.text{
+  width: 221px;
+  height: 44px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFF;
+  padding: 42px 0 0 45px;
+}
+.text p{
+  margin-bottom: 10px;
+}
+.pubg{
+  position: relative;
+  margin-top: 110px;
+  width: 388px;
+  height: 274px;
+  background: linear-gradient(180deg, #20243E 0%, rgba(32, 36, 62, 0) 87.04%);
+  box-shadow: inset 0 4px 12px #000000;
+}
+.pubg:before{
+  position: absolute;
+  content: '';
+  bottom: 0;
+  margin: auto;
+  background: url("https://i.ibb.co/R7pKDyK/image-4.png");
+  width: 410px;
+  height: 128px;
+  right: -11px;
+}
+.pubg:after{
+  position: absolute;
+  content: '';
+  bottom: 128px;
+  margin: auto;
+  background: url("https://i.ibb.co/KjFQMBS/image-3.png");
+  width: 168px;
+  height: 210px;
+  left: 0;
+  right: 0;
+}
+.circle{
+  width: 30px;
+  height: 30px;
+  background: radial-gradient(85% 85% at 50% 50%, #33AC38 40.1%, rgba(10, 163, 16, 0) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 14px 0 0 10px;
+  border-radius: 50%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #FFF;
+}
+#game h2{
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  width: 242px;
+  height: 29px;
+  margin: 100px 0 100px 0;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-bottom: 80px;
+
+}
+.games{
+  display: grid;
+  grid-template-rows:1fr 1fr;
+  grid-row-gap: 21px;
+  height: 425px;
+}
+.game-content{
+  background: #292E50;
+  width: 305px;
+  height: 168px;
+  font-family: Montserrat,sans-serif;
+
+}
+h4 {
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #E5E5E5;
+  margin: 20px 0 0 10px;
+}
+.game-content p{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #E5E5E5;
+  margin: 3px 0 0 10px;
+}
+.game-content p span{
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 5px;
+}
+.game-button{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin:24px 0 0 10px;
+}
+.game-button span{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+}
+button{
+  width: 188px;
+  height: 50px;
+  background: #2C3DAC;
+  border-radius: 2px;
+  border: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+button:hover{
+  transform: scale(0.9);
+  transition: .6s;
+  background: purple;
+}
+.game-button svg{
+  margin: 0 19px 0 20px;
+}
+.price{
+  width: 88px;
+  height: 50px;
+  background: #4B4C51;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
