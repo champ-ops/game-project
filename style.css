@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-  background: #010103;
+  background: #000;
   font-family: 'Roboto', sans-serif;
 }
 .container {
@@ -42,6 +42,11 @@ header {
   margin: 0 10px 0 10px;
   width: 197px;
   height: 38px;
+}
+.top-menu_item:hover{
+  transform: scale(0.9);
+  transition: .6s;
+  background:deepskyblue ;
 }
 #game{
   max-width: 1280px;
@@ -211,7 +216,7 @@ button{
 button:hover{
   transform: scale(0.9);
   transition: .6s;
-  background: purple;
+  background:deepskyblue ;
 }
 .game-button svg{
   margin: 0 19px 0 20px;
@@ -229,8 +234,6 @@ button:hover{
   text-decoration: none;
   color: white;
 }
-
-
 
 
 
